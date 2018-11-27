@@ -1,0 +1,14 @@
+security:
+  oauth2:
+    client:
+      clientId: 77hod7nkto9uyp
+      clientSecret: 4ZaveyFEmxhaUKl8
+      accessTokenUri: https://www.linkedin.com/oauth/v2/accessToken
+      userAuthorizationUri: https://www.linkedin.com/oauth/v2/authorization?state=jkgkjfgjfgfg
+      scope: r_basicprofile
+      tokenName: oauth_token
+      authenticationScheme: query
+      clientAuthenticationScheme: form
+    resource:
+      userInfoUri: https://api.linkedin.com/v2/me
+...
