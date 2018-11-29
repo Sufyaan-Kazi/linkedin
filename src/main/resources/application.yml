@@ -1,16 +1,17 @@
 security:
   oauth2:
     client:
-      clientId: 77hod7nkto9uyp
-      clientSecret: 4ZaveyFEmxhaUKl8
+      clientId: 78m0l30u1g0t3u
+      clientSecret: KKlKnDoyuLJH4TVi
       accessTokenUri: https://www.linkedin.com/oauth/v2/accessToken
       userAuthorizationUri: https://www.linkedin.com/oauth/v2/authorization
       tokenName: access_token
+      authenticationScheme: header
       clientAuthenticationScheme: query
     resource:
       userInfoUri: https://api.linkedin.com/v1/people/~?format=json
 
 logging:
   level:
-    org.springframework: DEBUG
+    org.springframework: INFO
 ...
