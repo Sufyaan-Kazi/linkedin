@@ -1,8 +1,8 @@
 security:
   oauth2:
     client:
-      clientId: 78m0l30u1g0t3u
-      clientSecret: KKlKnDoyuLJH4TVi
+      clientId: xxxxxxxxxxxxxx
+      clientSecret: xxxxxxxxxx
       accessTokenUri: https://www.linkedin.com/oauth/v2/accessToken
       userAuthorizationUri: https://www.linkedin.com/oauth/v2/authorization
       tokenName: access_token
